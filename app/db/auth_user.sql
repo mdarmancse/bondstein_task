@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 14, 2021 at 11:37 AM
+-- Generation Time: Sep 14, 2021 at 11:47 AM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -40,16 +40,8 @@ CREATE TABLE `admin_models` (
 --
 
 INSERT INTO `admin_models` (`id`, `name`, `password`, `email`, `user_type`) VALUES
-(1, 'Admin', '123', 'admin@gmail.com', 'Admin'),
-(2, 'Mainul', '12345', 'mainul@gmail.com', NULL),
-(3, 'Babu', '$2y$10$pu7E8jt108oRHI.0jnwhAOB/2eoSue94KH1JY46xTgRdhUbwD1NL2', 'touhidalm82@gmail.com', 'Customer'),
-(4, 'Central Warehouse', '202cb962ac59075b964b07152d234b70', 'cw@gmail.com', 'Admin'),
-(5, 'Chittagong CTG', '58eef294b54847752782276ffad32967', 'ctg@gmail.com', 'Admin'),
-(6, 'Oni', '$2y$10$HQj9uQR7WHpg17DqNVfKW.3n7n/xdqb7H0KLSCh3.TLo.3LF0mRSW', 'oni@gmail.com', 'Admin'),
-(7, 'Sarwar', '202cb962ac59075b964b07152d234b70', 'sarwar@gmail.com', 'Admin'),
-(8, 'ss', '9f6e6800cfae7749eb6c486619254b9c', 'sumanjuly1980@gmail.com', 'Admin'),
-(9, 'ss', '9f6e6800cfae7749eb6c486619254b9c', 'sumanjuly1980@gmail.com', 'Admin'),
-(10, 'Babu', '4e447c2e164c0c18ea225bddab3fbca7', 'touhidalm82@gmail.com', 'Customer');
+(11, 'Admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@gmail.com', 'Admin'),
+(12, 'Customer', '91ec1f9324753048c0096d036a694f86', 'customer@gmail.com', 'Customer');
 
 -- --------------------------------------------------------
 
@@ -96,7 +88,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `admin_models`
 --
 ALTER TABLE `admin_models`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `migrations`
